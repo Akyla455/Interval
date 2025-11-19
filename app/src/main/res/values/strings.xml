@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntervalsApp</string>
+    <string name="start_screen_enter_training_id">Введите ID тренировки</string>
+    <string name="start_screen_download_button_text">Загрузить</string>
+</resources>
