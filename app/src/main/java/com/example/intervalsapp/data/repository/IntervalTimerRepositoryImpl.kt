@@ -1,7 +1,6 @@
 package com.example.intervalsapp.data.repository
 
 import com.example.intervalsapp.data.remote.ApiService
-import com.example.intervalsapp.domain.model.Interval
 import com.example.intervalsapp.domain.model.IntervalTimer
 import com.example.intervalsapp.domain.repository.IntervalTimerRepository
 import javax.inject.Inject

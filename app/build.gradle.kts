@@ -63,21 +63,7 @@ dependencies {
     with(libs) {
 //    #   Kotlin
         implementation(kotlin.serialization)
-        //implementation(deepseek.kotlin)
 
-//    #   Androidx core-ktx
-        implementation(androidx.core.ktx)
-
-//    #  Video
-        implementation(libs.fengdai.compose.media)
-        implementation(libs.media3.exoplayer)
-        implementation(libs.media3.session)
-        implementation(libs.media3.exoplayer.hls)
-        implementation(libs.media3.exoplayer.dash)
-        implementation(libs.media3.ui)
-
-        //Image Cropper
-        implementation(libs.image.cropper)
 
 //    #   Androidx runtime-ktx
         implementation(androidx.lifecycle)
@@ -94,26 +80,13 @@ dependencies {
 //    #   AndroidxWork runtime
         implementation(androidxWork.runtime.ktx)
 
-//    #   Google play
-        implementation(google.play.feature)
-        implementation(google.play.feature.ktx)
-        implementation(google.play.review)
-        implementation(google.play.review.ktx)
-        implementation(google.play.app.update)
-        implementation(google.play.app.update.ktx)
-
-
 //    #   Google Maps
         implementation(google.maps.compose)
         implementation(google.maps.compose.utils)
         implementation(google.maps.compose.widgets)
         implementation(play.services.maps)
         implementation(play.services.location)
-//        implementation(google.maps.places)
         implementation(places)
-
-//    #   Paging
-        implementation(paging.compose)
 
         //    #  Hilt
         ksp(hilt.compiler)
@@ -132,37 +105,7 @@ dependencies {
 //    #   OkHttp3
         implementation(okhttp.core)
         implementation(okhttp.logging.interceptor)
-
-//    #   Coil
-        implementation(coil.compose)
-        implementation(coil.svg)
-
-//    #   Zelory
-        implementation(zelory.compressor)
-
-//    #   Firebase
-        implementation(firebase.messaging)
-
-        implementation(kotlinx.datetime)
-
-//       #   AutoLinkText
-        implementation(autolinktext)
-
-//      #   WebView
-        implementation(compose.webview)
-
-//      #   RatingBar
-        implementation(libs.compose.ratingbar)
-
-//      #   YandexMetric
-        implementation(libs.yandex.metrica)
-
-        //Ktor
-        implementation(libs.ktor.client.core)
-        implementation(libs.ktor.client.websockets)
-        implementation(libs.ktor.client.cio)
-        implementation(libs.ktor.client.logging)
-
+        
 //    #   Compose
         implementation(compose.activity)
         implementation(platform(compose.bom))
